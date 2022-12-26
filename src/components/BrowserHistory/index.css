@@ -1,0 +1,46 @@
+.browser-history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+}
+.history-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3367d6;
+  height: 60px;
+  background-size: cover;
+}
+.logo-image {
+  width: 100px;
+}
+.search-image {
+  width: 25px;
+  background-color: #2850a7;
+  background-size: cover;
+  margin-top: 10px;
+}
+.search-input {
+  background-color: #2850a7;
+  outline: none;
+  color: #ececec;
+  font-size: 15px;
+  font-family: 'Roboto';
+  width: 180px;
+  margin-left: 3px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.unordered-list-Container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+}
+.empty-para {
+  color: #64748b;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
